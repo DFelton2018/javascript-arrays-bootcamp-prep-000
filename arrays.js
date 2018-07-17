@@ -30,6 +30,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 function accessElementInArray(array, index) {
   
+<<<<<<< HEAD
  return array[index];
   
 }
@@ -59,5 +60,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 function removeElementFromEndOfArray(array) {
   
   return array.slice(0, array.length - 1);
+=======
+  console.log(index[3]);
+>>>>>>> b3b6e1ee04fc0ca3ba64f8b258892b765471bdfd
   
 }
